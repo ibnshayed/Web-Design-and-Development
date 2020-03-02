@@ -1,0 +1,10 @@
+npx create-react-app react-app-name
+cd react-app-name
+npm start
+
+push on github
+
+npm run eject
+
+on webpak.config.js
+428 number lines
