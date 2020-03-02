@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Burger.css';
 import BurgerIngredient from "./BugerIngredient/BurgerIngredient";
-const Buger = () => {
+const Burger = () => {
     return (
         <div className={classes.Burger}>
             <BurgerIngredient type="bread-top"/>
@@ -12,4 +12,4 @@ const Buger = () => {
     );
 };
 
-export default Buger;
+export default Burger;
