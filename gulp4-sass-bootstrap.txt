@@ -1,0 +1,8 @@
+https://github.com/amylily1011/gulp4-sass-bootstrap
+
+npm install bootstrap
+npm install sass -g
+npm install gulp-cli -g
+npm install gulp gulp-sass browser-sync --save-dev
+npm init
+gulp watch
