@@ -3,6 +3,13 @@ $font-color:#fff;
 $primary-color:#008ed6;
 $icon-font-size:30px;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body{
     background: $body-bg;
     color: $font-color;
@@ -38,6 +45,25 @@ body{
         padding-bottom: 50px;
     }
 }
+
+#explore-main-section{
+    .fa{
+        font-size: $icon-font-size;
+    }
+}
+
+#create-main-section{
+    .fa{
+        font-size: $icon-font-size;
+    }
+}
+
+#share-main-section{
+    .fa{
+        font-size: $icon-font-size;
+    }
+}
+
 
 
 @media(max-width:768px){
