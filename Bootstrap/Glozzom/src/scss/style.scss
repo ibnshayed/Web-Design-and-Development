@@ -99,6 +99,53 @@ nav {
     background-color: black;
 }
 
+
+// About Page
+
+#about-banner{
+    height: 250px;
+    background: url("../img/image1.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-do{
+    img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+#about-services{
+    .fa{
+        font-size: $icon-size;
+    }
+
+    .fab{
+        font-size: $icon-size;
+    }
+
+}
+
+#testimonial{
+    .slick-prev::before,
+    .slick-next::before{
+        color:#000
+    }
+    
+}
+
+// Services Page
+#services-main{
+    height: 250px;
+    background: url("../img/image3.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 // MEDIA QUERY
 
 @media(max-width: 767px) {

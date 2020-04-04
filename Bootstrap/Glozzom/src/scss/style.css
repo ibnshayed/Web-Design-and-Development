@@ -85,6 +85,40 @@ nav .nav-item .nav-link {
   background-color: black;
 }
 
+#about-banner {
+  height: 250px;
+  background: url("../img/image1.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about-do img {
+  width: 350px;
+  height: 350px;
+}
+
+#about-services .fa {
+  font-size: 50px;
+}
+
+#about-services .fab {
+  font-size: 50px;
+}
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000;
+}
+
+#services-main {
+  height: 250px;
+  background: url("../img/image3.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (max-width: 767px) {
   .nav-item {
     padding-left: 0em !important;
