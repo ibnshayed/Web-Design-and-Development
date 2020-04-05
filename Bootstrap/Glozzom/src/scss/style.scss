@@ -146,6 +146,21 @@ nav {
 
 }
 
+// Blog
+#blog-banner{
+    height: 250px;
+    background: url("../img/image2.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-cards{
+    img{
+        min-height: 250px;
+    }
+}
+
 // MEDIA QUERY
 
 @media(max-width: 767px) {

@@ -119,6 +119,18 @@ nav .nav-item .nav-link {
   background-size: cover;
 }
 
+#blog-banner {
+  height: 250px;
+  background: url("../img/image2.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blog-cards img {
+  min-height: 250px;
+}
+
 @media (max-width: 767px) {
   .nav-item {
     padding-left: 0em !important;
