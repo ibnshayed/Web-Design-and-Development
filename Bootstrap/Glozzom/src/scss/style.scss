@@ -161,6 +161,18 @@ nav {
     }
 }
 
+
+// Contact Page
+#contact-banner{
+    height: 250px;
+    background: url("../img/image3.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 // MEDIA QUERY
 
 @media(max-width: 767px) {

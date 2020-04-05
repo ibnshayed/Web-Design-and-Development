@@ -131,6 +131,14 @@ nav .nav-item .nav-link {
   min-height: 250px;
 }
 
+#contact-banner {
+  height: 250px;
+  background: url("../img/image3.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (max-width: 767px) {
   .nav-item {
     padding-left: 0em !important;
