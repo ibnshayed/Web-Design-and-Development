@@ -1,5 +1,5 @@
-$header-bg-color:#87509c;
-$home-bg-color:#643a79;
+$header-bg-color:#7c2357;
+$home-bg-color:#3f003f;
 $service-bg-color:#17c2a4;
 $team-bg-color:#e7f1f8;
 $team-designation-color:#30bae7;
@@ -12,33 +12,44 @@ $team-icon-bg-color:#bdd1df;
 
 body{
   font-family: 'Titillium Web', sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 header{
-  background-color: $header-bg-color;
+  background: url("../img/bgpic3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  min-height: 85vh;
 
-  nav{ 
+  .dark-overlay{
+    background: $header-bg-color;
+    opacity: 0.9;
+    min-height: 85vh;
+    nav{ 
 
-    li a:hover{
-      background-color:$home-bg-color;
-      border-radius: .3rem!important;
-    }
-    .active{
-      background-color:$home-bg-color;
-    }
-  }
-
-    #header-banner{
-      h1{
-        font-weight: 700;
+      li a:hover{
+        background-color:$home-bg-color;
+        border-radius: .3rem!important;
       }
-      button{
-        background-color: #eb7d4b;
-        font: 600;
-        text-transform: uppercase;
-        border-bottom: 2px solid #c86a40;
+      .active{
+        background-color:$home-bg-color;
+      }
     }
-  }
+  
+    #header-banner{
+        h1{
+          font-weight: 700;
+        }
+        a{
+          background-color: #eb7d4b;
+          font-size: 600;
+          text-transform: uppercase;
+          border-bottom: 2px solid #c86a40; 
+      }
+    }
+  }  
 
 }
 

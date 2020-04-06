@@ -5,28 +5,40 @@
 
 body {
   font-family: 'Titillium Web', sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 header {
-  background-color: #87509c;
+  background: url("../img/bgpic3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  min-height: 85vh;
 }
 
-header nav li a:hover {
-  background-color: #643a79;
+header .dark-overlay {
+  background: #7c2357;
+  opacity: 0.9;
+  min-height: 85vh;
+}
+
+header .dark-overlay nav li a:hover {
+  background-color: #3f003f;
   border-radius: 0.3rem !important;
 }
 
-header nav .active {
-  background-color: #643a79;
+header .dark-overlay nav .active {
+  background-color: #3f003f;
 }
 
-header #header-banner h1 {
+header .dark-overlay #header-banner h1 {
   font-weight: 700;
 }
 
-header #header-banner button {
+header .dark-overlay #header-banner a {
   background-color: #eb7d4b;
-  font: 600;
+  font-size: 600;
   text-transform: uppercase;
   border-bottom: 2px solid #c86a40;
 }
