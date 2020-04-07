@@ -9,7 +9,8 @@ body {
 }
 
 header {
-  background: url("../img/bgpic3.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(124, 35, 87, 0.9))), url("../img/bgpic3.jpg");
+  background: linear-gradient(rgba(124, 35, 87, 0.9)), url("../img/bgpic3.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,26 +18,20 @@ header {
   min-height: 85vh;
 }
 
-header .dark-overlay {
-  background: #7c2357;
-  opacity: 0.9;
-  min-height: 85vh;
-}
-
-header .dark-overlay nav li a:hover {
+header nav li a:hover {
   background-color: #3f003f;
   border-radius: 0.3rem !important;
 }
 
-header .dark-overlay nav .active {
+header nav .active {
   background-color: #3f003f;
 }
 
-header .dark-overlay #header-banner h1 {
+header #header-banner h1 {
   font-weight: 700;
 }
 
-header .dark-overlay #header-banner a {
+header #header-banner a {
   background-color: #eb7d4b;
   font-size: 600;
   text-transform: uppercase;
@@ -44,7 +39,11 @@ header .dark-overlay #header-banner a {
 }
 
 #services {
-  background-color: #17c2a4;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(23, 194, 164, 0.7)), to(rgba(23, 194, 164, 0.7))), url("../img/bgpic2.jpg");
+  background: linear-gradient(rgba(23, 194, 164, 0.7), rgba(23, 194, 164, 0.7)), url("../img/bgpic2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 #services img {
@@ -55,12 +54,27 @@ header .dark-overlay #header-banner a {
   font-weight: 700;
 }
 
+#services h3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  background: #fff;
+  margin: auto;
+  margin-top: 5px;
+}
+
 #services p {
   font-weight: 300;
 }
 
 #team {
-  background-color: #e7f1f8;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(231, 241, 248, 0.7))), url("../img/headerBG.jpg");
+  background: linear-gradient(rgba(231, 241, 248, 0.7)), url("../img/headerBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 #team .main {
@@ -70,6 +84,16 @@ header .dark-overlay #header-banner a {
 #team h3, #team h4 {
   font-weight: 700;
   color: #3c4761;
+}
+
+#team h3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+  background: rgba(0, 223, 253, 0.466);
+  margin: auto;
+  margin-top: 5px;
 }
 
 #team img {
@@ -89,14 +113,22 @@ header .dark-overlay #header-banner a {
   background-color: #bdd1df;
   width: 50px;
   height: 50px;
-  border-radius: 50px;
+  border-radius: 50%;
   padding-top: 15px;
   color: #fff;
   margin-left: 4px;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 #team .facebook {
   margin-left: 0;
+}
+
+#team .fab:hover, #team .fas:hover {
+  background: #393939;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 @media (max-width: 1150px) {
