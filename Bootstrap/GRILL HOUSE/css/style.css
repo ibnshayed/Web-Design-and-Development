@@ -1,0 +1,524 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  background: #262626;
+}
+
+nav {
+  background: #262626;
+}
+
+nav .img-fluid {
+  max-width: 80%;
+}
+
+nav .navbar-toggler {
+  background: #e1b838;
+  font-size: 5rem;
+}
+
+nav ul {
+  border: 0.3rem solid #e1b838;
+}
+
+nav ul li {
+  padding: 0.3rem 1rem;
+  font-size: 3.3rem;
+}
+
+nav ul li a {
+  color: #e1b838;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+nav ul li:nth-child(3) {
+  background: #e1b838;
+  font-weight: 700;
+}
+
+nav ul li:nth-child(3) a {
+  color: #000;
+}
+
+nav ul li:nth-child(3) a:hover {
+  color: #fff;
+}
+
+#opening-party {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(68, 66, 59, 0.2)), to(rgba(0, 0, 0, 0.7))), url("../img/bg1.jpg");
+  background: linear-gradient(rgba(68, 66, 59, 0.2), rgba(0, 0, 0, 0.7)), url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#opening-party .party {
+  margin: 0 14rem;
+  border: 1rem solid #e1b838;
+}
+
+#opening-party .party .opening h2 {
+  background: #e1b838;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 4.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#opening-party .party .date h2 {
+  font-size: 4.1rem;
+  font-weight: 700;
+}
+
+#opening-party .food h2 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+#menu {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(0, 0, 0, 0.7))), url("../img/bg2.jpg");
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)), url("../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 6rem 0;
+}
+
+#menu .menu-header h2 {
+  font-size: 6.2rem;
+  font-weight: 400;
+  font-family: "Fjalla One", sans-serif;
+  text-shadow: 1rem 2rem 1rem #000;
+}
+
+#menu .menu-items h2 {
+  background: #e1b838;
+  color: #262626;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#menu .menu-items .menu-items-price {
+  border: 3px solid #e1b838;
+}
+
+#menu .menu-items p {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+#discount {
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(0, 0, 0, 0.7))), url("../img/bg3.jpg");
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)), url("../img/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#discount h2 {
+  color: #e1b838;
+  font-size: 5.4rem;
+}
+
+#discount .h2-bold {
+  font-weight: 700;
+}
+
+#discount .logo {
+  margin-top: 10rem !important;
+}
+
+#discount .btn {
+  font-size: 2.6rem;
+  font-weight: 400;
+  font-family: "Fjalla One", sans-serif;
+}
+
+#discount h3 {
+  color: #e1b838;
+  font-size: 3.4rem;
+  font-weight: 400;
+  font-family: "Fjalla One", sans-serif;
+}
+
+#specials {
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(0, 0, 0, 0.7))), url("../img/bg4.jpg");
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)), url("../img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 6rem;
+  z-index: 10;
+}
+
+#specials .margin {
+  margin: 5rem 10% 0;
+}
+
+#specials .down-img {
+  z-index: 100;
+}
+
+#specials .menu-items h2 {
+  background: #e1b838;
+  color: #262626;
+  font-size: 4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#specials .menu-items .menu-items-price {
+  border: 3px solid #e1b838;
+}
+
+#specials .menu-items .menu-items-price p {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#specials .menu-items p {
+  font-size: 2.8rem;
+}
+
+#down {
+  position: relative;
+}
+
+#down .down {
+  background: #262626;
+  position: absolute;
+  width: 100%;
+  height: 30rem;
+  top: -25rem;
+}
+
+#method {
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(0, 0, 0, 0.7))), url("../img/bg5.jpg");
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7)), url("../img/bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 30rem;
+  position: relative;
+  top: -10rem;
+}
+
+#method .board .card-width {
+  width: 80%;
+}
+
+#method .board h2 {
+  background: #e1b838;
+  color: #262626;
+  font-size: 5.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#method .board .board-items {
+  border: 3px solid #e1b838;
+}
+
+#method .board .board-items p {
+  font-size: 3.7rem;
+}
+
+#music {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(0, 0, 0, 0.5))), url("../img/bg6.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5)), url("../img/bg6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#music .board .header {
+  background: #e1b838;
+  color: #262626;
+  font-size: 5.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#music .board .board-items {
+  border: 3px solid #e1b838;
+}
+
+#music .board .board-items .bold {
+  font-weight: 700;
+}
+
+#music .board .board-items h2 {
+  font-size: 5.8rem;
+}
+
+#music .side h2 {
+  font-size: 4.1rem;
+}
+
+#about .exp {
+  color: #e1b838;
+  font-size: 4.5rem;
+  font-weight: 400;
+  font-family: "Fjalla One", sans-serif;
+}
+
+#about .board .card-width {
+  width: 85%;
+}
+
+#about .board .header {
+  background: #e1b838;
+  color: #262626;
+  font-size: 3.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#about .board .board-items {
+  border: 3px solid #e1b838;
+}
+
+#about .board .board-items h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#about .site-links h2 {
+  font-size: 3.3rem;
+  line-height: 7.5rem;
+}
+
+#about .foot {
+  margin: 0 3%;
+}
+
+#about .foot h2 {
+  font-size: 4rem;
+}
+
+#about .social-links li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+#about .social-links .fab {
+  background: #e1b838;
+  border-radius: 5%;
+  color: #000;
+  font-size: 4rem;
+  padding: 0.7rem 1.3rem;
+}
+
+#about .social-links .grill-house {
+  font-size: 3.5rem;
+  color: #e1b838;
+}
+
+#about .emran h2 {
+  color: #e1b838;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  #opening-party .party {
+    margin: 4rem 4rem 0;
+  }
+  #opening-party .party .opening h2 {
+    font-size: 4rem;
+  }
+  #opening-party .party .date h2 {
+    font-size: 3.5rem;
+  }
+  #opening-party .food h2 {
+    font-size: 3.4rem;
+  }
+  #menu .menu-items p {
+    font-size: 2.3rem;
+  }
+  #specials .menu-items h2 {
+    font-size: 3.4rem;
+  }
+  #specials .menu-items p {
+    font-size: 2.4rem;
+  }
+  #method .board .card-width {
+    width: 94%;
+  }
+  #about .emran a {
+    color: #e1b838;
+  }
+  #about .board .header {
+    font-size: 5rem;
+  }
+  #about .foot h2 {
+    font-size: 3.8rem;
+  }
+  #about .social-links .fab {
+    font-size: 2.2rem;
+  }
+  #about .social-links .grill-house {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #menu .menu-items p {
+    font-size: 1.8rem;
+  }
+  #specials .menu-items h2 {
+    font-size: 2.8rem;
+  }
+  #specials .menu-items p {
+    font-size: 2.2rem;
+  }
+  #about .board .board-items h2 {
+    font-size: 2.7rem;
+  }
+  #about .social-links .grill-house {
+    display: block;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul li {
+    font-size: 2rem;
+  }
+  #opening-party .party {
+    margin: 4rem 3rem 0;
+  }
+  #opening-party .party .opening h2 {
+    font-size: 3rem;
+  }
+  #opening-party .party .date h2 {
+    font-size: 2.5rem;
+  }
+  #opening-party .food h2 {
+    font-size: 2.6rem;
+  }
+  #menu .menu-items h2 {
+    font-size: 2.3rem;
+  }
+  #menu .menu-items p {
+    font-size: 1.2rem;
+  }
+  #specials .menu-items h2 {
+    font-size: 2.1rem;
+  }
+  #specials .menu-items P {
+    font-size: 1.8rem;
+  }
+  #specials .menu-items .menu-items-price p {
+    font-size: 3rem;
+  }
+  #method .card-width {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #method .board h2 {
+    font-size: 4rem;
+  }
+  #method .board .board-items p {
+    font-size: 2.4rem;
+  }
+  #music .board .header {
+    font-size: 4.5rem;
+  }
+  #music .board .board-items h2 {
+    font-size: 4.8rem;
+  }
+  #music .side h2 {
+    font-size: 3.4rem;
+  }
+  #about .board .board-items h2 {
+    font-size: 2rem;
+  }
+  #about .foot h2 {
+    font-size: 2.9rem;
+  }
+  #about .social-links .grill-house {
+    display: block;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #opening-party .party {
+    margin: 5rem 0 0;
+  }
+  #opening-party .party .opening {
+    padding: 0;
+  }
+  #opening-party .party .opening h2 {
+    font-size: 2rem;
+  }
+  #opening-party .party .date {
+    padding: 0;
+  }
+  #opening-party .party .date h2 {
+    font-size: 2rem;
+  }
+  #opening-party .food h2 {
+    font-size: 1.8rem;
+  }
+  #menu .menu-items h2 {
+    font-size: 7rem;
+  }
+  #menu .menu-items p {
+    font-size: 3rem;
+  }
+  #specials .menu-items h2 {
+    font-size: 3.5rem;
+  }
+  #specials .menu-items .menu-items-price p {
+    font-size: 3.5rem;
+  }
+  #specials .menu-items p {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+  }
+  #method .board .card-width {
+    margin: 0 auto;
+    width: 80%;
+  }
+  #music .side h2 {
+    margin-top: 2rem;
+  }
+  #about .board .card-width {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #about .board .board-items h2 {
+    font-size: 3rem;
+  }
+  #about .social-links .fab {
+    font-size: 2.5rem;
+  }
+  #about .social-links .grill-house {
+    font-size: 3rem;
+    display: inline;
+  }
+}
+
+@media (max-width: 320px) {
+  nav .img-fluid {
+    margin-left: 2rem;
+    max-width: 50%;
+  }
+  nav .navbar-toggler {
+    font-size: 3rem;
+    margin-right: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

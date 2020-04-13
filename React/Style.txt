@@ -1,0 +1,20 @@
+Every React app should upload on github
+
+npm install react-bootstrap bootstrap
+
+
+CSS#
+{/* The following line can be included in your src/index.js or App.js file*/}
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+SASS
+npm install node-sass
+https://rubyinstaller.org/downloads/
+
+on RUBY CMD:
+gem install sass
+
+npm run eject ( react app should upload on github)
+https://github.com/webpack-contrib/sass-loader

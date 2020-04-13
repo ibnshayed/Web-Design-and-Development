@@ -1,5 +1,6 @@
 https://www.w3schools.com/
 https://getbootstrap.com/
+https://fontawesome.com/
 
 
 https://devdocs.io/
@@ -11,3 +12,7 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML
 https://colorhunt.co/
 https://emojipedia.org/
 https://www.favicon.cc/
+https://www.cssfontstack.com/
+https://fonts.google.com/
+https://www.flaticon.com/
+https://giphy.com/
