@@ -2,6 +2,9 @@ Every React app should upload on github
 
 npm install react-bootstrap bootstrap
 
+jQuery:
+npm install jquery
+
 
 CSS#
 {/* The following line can be included in your src/index.js or App.js file*/}

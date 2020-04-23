@@ -1,13 +1,14 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import Project from "./Project/Project";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'jquery/dist/jquery.min';
+import HomePage from "./Container/HomePage/HomePage";
 
 function App() {
   return (
     <div className="App">
-
-        <Project/>
+      <HomePage/>
     </div>
   );
 }

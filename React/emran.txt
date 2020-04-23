@@ -8,3 +8,7 @@ npm run eject
 
 on webpak.config.js
 428 number lines
+
+modules: {
+           localIdentName: '[name]__[local]___[hash:base64:5]'
+         }

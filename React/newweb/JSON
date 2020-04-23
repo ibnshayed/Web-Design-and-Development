@@ -1,4 +1,5 @@
 .demo {
-  font-size: 3rem; }
+  text-align: center;
+  background: aqua; }
 
 /*# sourceMappingURL=JSON.map */
