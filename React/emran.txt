@@ -5,6 +5,15 @@ npm start
 push on github
 
 npm run eject
+npm install bootstrap
+npm i jquery@3.4.1
+npm install popper.js --save
+npm install tooltip.js --save
+npm install -g sass
+npm install sass-loader sass webpack --save-dev
+npm install --save react-router
+npm install --save react-router-dom
+npm install @types/react-transition-group
 
 on webpak.config.js
 428 number lines
