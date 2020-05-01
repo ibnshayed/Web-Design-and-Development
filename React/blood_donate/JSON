@@ -1,6 +1,6 @@
-#beadonor {
+#findadonor {
   height: 100vh; }
-  #beadonor h1::after {
+  #findadonor h1::after {
     content: "";
     display: block;
     height: 3px;

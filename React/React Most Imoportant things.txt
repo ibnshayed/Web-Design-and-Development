@@ -14,6 +14,7 @@ npm install sass-loader sass webpack --save-dev
 npm install --save react-router
 npm install --save react-router-dom
 npm install @types/react-transition-group
+npm install axios
 
 on webpak.config.js
 428 number lines

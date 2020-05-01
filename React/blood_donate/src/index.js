@@ -12,12 +12,14 @@ import "bootstrap/dist/js/bootstrap.js";
 import $ from "jquery";
 
 import {BrowserRouter} from "react-router-dom";
-
+import DonorContextProvider from "./context/DonorContextProvider/DonorContextProvider";
 const app = (
   <BrowserRouter>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
+      <DonorContextProvider>
+          <React.StrictMode>
+            <App />
+          </React.StrictMode>
+      </DonorContextProvider>
   </BrowserRouter>
 );
 
