@@ -23,10 +23,10 @@ export default (props) => {
                             <td>{data.phone}</td>
                             <td className="btn-group">
                                 <button className="btn btn-primary px-3"
-                                        onClick={props.view}
+                                        onClick={() => props.view(data)}
                                         data-toggle="modal" data-target="#exampleModalCenter">View</button>
                                 <button className="btn btn-info px-3">Update</button>
-                                <button className="btn btn-danger px-3">Delete</button>
+                                <button className="btn btn-danger px-3" onClick={() => props.delete(data.id)}>Delete</button>
                             </td>
                         </tr>
                     ))

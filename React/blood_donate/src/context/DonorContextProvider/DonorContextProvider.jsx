@@ -19,7 +19,7 @@ export default ({children}) => {
         try {
             const response = await axios.get(`http://localhost:8080/api/donor/${id}`);
             setDonor(response.data);
-            console.log(response.data)
+            console.log(response.data);
         }catch (error) {
             console.log(error);
         }
@@ -27,9 +27,8 @@ export default ({children}) => {
 
     const deleteDonorById = async (id) =>{
         try {
-            const response = await axios.delete(`http://localhost:8080/api/donor/${id}`);
-            setDonor(response.data);
-            console.log(response.data)
+            await axios.delete(`http://localhost:8080/api/donor/${id}`);
+            setDonors(donors.filter(e => e.id !== id));
         }catch (error) {
             console.log(error);
         }
@@ -43,7 +42,8 @@ export default ({children}) => {
                 donors,
                 donor,
                 getAllDonors,
-                getDonorById
+                getDonorById,
+                deleteDonorById
             }}>
             {children}
         </DonorContext.Provider>
