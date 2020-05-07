@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Navbar.scss";
 
 export default (props) =>{
   return(
@@ -14,11 +15,12 @@ export default (props) =>{
                   <div className="collapse navbar-collapse" id="navbarNav">
                       <ul className="navbar-nav ml-auto">
                         {
-                            props.navItems.map(item => (
-                                <li className="nav-item">
+                            props.navItems.map((item,i) => {
+                                return(
+                                <li className="nav-item" key={i}>
                                     <a href={item.path} className="nav-link text-capitalize text-dark">{item.label}</a>
                                 </li>
-                            ))
+                            )})
                         }                
                       </ul>
                   </div>

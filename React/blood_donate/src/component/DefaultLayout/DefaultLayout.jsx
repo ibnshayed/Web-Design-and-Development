@@ -17,7 +17,7 @@ const switches = (
 export default () =>{
     return(
         <div>
-            <Navbar navItems={NavItems}/>
+            <Navbar navItems={NavItems} activated={"active"}/>
             <div className="mt-5">{switches}</div>
         </div>
     );

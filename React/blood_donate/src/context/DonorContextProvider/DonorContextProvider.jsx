@@ -34,8 +34,16 @@ export default ({children}) => {
         }
     };
 
-    return(
+    const saveOrUpdateDonor = async (data) =>{
+        try {
+            const response = await axios.post(`http://localhost:8080/api/donor/`,data);
+        } catch (error) {
+            window.alert("Donor is not created");
+            console.log(error);
+        }
+    }
 
+    return(
 
         <DonorContext.Provider
             value={{
@@ -43,7 +51,8 @@ export default ({children}) => {
                 donor,
                 getAllDonors,
                 getDonorById,
-                deleteDonorById
+                deleteDonorById,
+                saveOrUpdateDonor
             }}>
             {children}
         </DonorContext.Provider>

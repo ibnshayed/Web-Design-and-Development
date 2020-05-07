@@ -1,12 +1,14 @@
 import React, {Fragment, useContext, useEffect, useState} from "react";
-import classes from "./FindADonorPage.scss";
+import "./FindADonorPage.scss";
 import Table from "../../Table/Table";
 import {DonorContext} from "../../../context/DonorContextProvider/DonorContextProvider";
+import { useHistory } from "react-router";
 
 export default () => {
 
     const donorContext = useContext(DonorContext);
     const [donor,setDonor] = useState(null);
+    const history = useHistory();
 
     useEffect(() => {
         donorContext.getAllDonors();
@@ -20,16 +22,20 @@ export default () => {
         setDonor(data);
     }
 
+    const updateDonor = (data) => {
+        history.push("/beadonor",data);
+    }
+
 
 
     const viewDonorDetails = (
         <Fragment>
-            <div className="modal fade text-left" id="exampleModalCenter" tabindex="-1" role="dialog"
+            <div className="modal fade text-left" id="exampleModalCenter" role="dialog"
                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLongTitle">Donor</h5>
+                            <h5 className="modal-title" id="exampleModalLongTitle">Donor Details</h5>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -86,6 +92,7 @@ export default () => {
                                     <Table columns={donorColumn}
                                            dataSource={donorContext.donors}
                                            view={onViewDonor}
+                                           update={updateDonor}
                                            delete={deleteDonor}/>
                                     : null
                             }
@@ -102,11 +109,6 @@ export default () => {
 };
 
 const donorColumn = [
-    {
-        key: "id",
-        title: "ID",
-        dataIndex: "id"
-    },
     {
         key: "name",
         title: "Name",
