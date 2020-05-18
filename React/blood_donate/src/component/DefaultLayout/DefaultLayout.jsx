@@ -8,7 +8,7 @@ import Routes from "../../helper/Routes/Routes";
 const switches = (
     <Switch>
         {Routes.map(route => (
-            <Route key={route.key} path={route.path} component={route.component} />
+            <Route key={route.key} exact path={route.path} component={route.component} />
         ))}
         <Redirect to={"/home"} />
     </Switch>
