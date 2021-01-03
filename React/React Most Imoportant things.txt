@@ -19,6 +19,9 @@ npm i jquery@3.4.1
 npm install popper.js --save
 npm install tooltip.js --save
 
+npm install @material-ui/core
+npm install @material-ui/icons
+
 on webpak.config.js
 428 number lines
 

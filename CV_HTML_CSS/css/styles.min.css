@@ -1,0 +1,73 @@
+/* Color Start */
+.white {
+    color: rgba(255,255,255,1);
+}
+.black {
+    color: rgba(0,0,0,1);
+}
+/* Color End */
+
+/* Background Color Start */
+.bg-white {
+    background-color: rgba(255,255,255,1);
+}
+.bg-black {
+    background-color: rgba(0,0,0,1);
+}
+
+.bg-black-1 {
+    background-color: rgba(0,0,0,0.9);
+}
+.bg-black-2 {
+    background-color: rgba(0,0,0,0.8);
+}
+/* Background Color End */
+
+/* Padding Start */
+.px-50 {
+    padding: 0 50px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-50 {
+    padding-left: 50px;
+}
+
+/* Padding End */
+
+/* Margin Start */
+.m-50 {
+    margin: 50px;
+}
+
+.mx-50{
+    margin: 0 50px;
+}
+
+.my-50 {
+    margin: 50px 0;
+}
+
+/* Margin End */
+
+/* width End */
+.w-100{
+    width: 100%;
+}
+/* width End */
+
+
+/* Overflow Start */
+.overflowX-auto{
+    overflow-x: auto;
+}
+
+.overflowY-auto{
+    overflow-y: auto;
+}
+
+/* Overflow End */
+

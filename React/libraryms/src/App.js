@@ -1,9 +1,10 @@
 import React from 'react';
+import Layout from './components/Layouts/Layout';
 
 function App() {
   return (
     <div className="App">
-      <div>Library Management System</div>
+      <Layout/>
     </div>
   );
 }
